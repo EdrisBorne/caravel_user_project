@@ -49,8 +49,7 @@ module sr_wb_tb;
 
 	initial begin
 		$dumpfile("sr_wb.vcd");
-		$dumpvars(1, sr_wb_tb);
-		$dumpvars(0, sr_wb_tb.uut.mprj);
+		$dumpvars(0, sr_wb_tb);
 
 		// Repeat cycles of 1000 clock edges as needed to complete testbench
 		repeat (100) begin
