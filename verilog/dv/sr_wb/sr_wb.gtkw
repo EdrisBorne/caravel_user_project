@@ -1,0 +1,51 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Fri Nov 18 13:42:27 2022
+[*]
+[dumpfile] "/home/matt/work/asic-workshop/shuttle8/caravel_user_project/verilog/dv/sr_wb/RTL-sr_wb.vcd"
+[dumpfile_mtime] "Fri Nov 18 13:39:51 2022"
+[dumpfile_size] 974360
+[savefile] "/home/matt/work/asic-workshop/shuttle8/caravel_user_project/verilog/dv/sr_wb/sr_wb.gtkw"
+[timestart] 53000000
+[size] 2101 1156
+[pos] -1 -1
+*-29.400000 894037500 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] sr_wb_tb.
+[treeopen] sr_wb_tb.uut.
+[treeopen] sr_wb_tb.uut.mprj.
+[sst_width] 343
+[signals_width] 1235
+[sst_expanded] 1
+[sst_vpaned_height] 350
+@28
+sr_wb_tb.CSB
+sr_wb_tb.RSTB
+sr_wb_tb.USER_VDD1V8
+sr_wb_tb.USER_VDD3V3
+sr_wb_tb.VDD1V8
+sr_wb_tb.VDD3V3
+sr_wb_tb.VSS
+sr_wb_tb.checkbits[1:0]
+sr_wb_tb.clock
+sr_wb_tb.flash_clk
+sr_wb_tb.flash_csb
+sr_wb_tb.flash_io0
+sr_wb_tb.flash_io1
+sr_wb_tb.gpio
+@22
+sr_wb_tb.mprj_io[37:0]
+@28
+sr_wb_tb.power1
+sr_wb_tb.power2
+sr_wb_tb.power3
+sr_wb_tb.power4
+sr_wb_tb.uart_tx
+@22
+sr_wb_tb.uut.mprj.mprj.wb_addr[31:0]
+sr_wb_tb.uut.mprj.mprj.wProgData[31:0]
+@28
+sr_wb_tb.uut.mprj.mprj.wen
+@23
+sr_wb_tb.uut.mprj.mprj.sr_data[164:0]
+[pattern_trace] 1
+[pattern_trace] 0

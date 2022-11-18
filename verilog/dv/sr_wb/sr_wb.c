@@ -29,6 +29,7 @@ uint16_t i = 0;
 int  value = 0;
 
 
+
 void main()
 {
     reg_spi_enable = 1;
@@ -68,10 +69,7 @@ void main()
     // Flag start of the test
     reg_mprj_datal = 0x00000001;
     
-    
-    for (i= 0; i < Bits; i++){
-	reg_base_sr  = (0x00000000 | wb_dat_i[i]);
-    }
+    reg_base_sr = 0xFF;
     
     reg_mprj_datal = 0x00000002;
 }
