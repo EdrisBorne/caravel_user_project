@@ -26,7 +26,7 @@ uint16_t wb_dat_i [Bits] = { 0, 0, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 
 
 
 uint16_t i = 0;
-int  value = 0;
+//int  value = 0;
 
 
 void main()
@@ -58,8 +58,8 @@ void main()
     */
     
     reg_base_sr = 0xFF;
-    reg_base_sr1 = 0x1;
-    reg_base_sr2 = 0x2;
-    reg_base_sr3 = 0x3;
+    reg_base_sr = 0x1;
+    reg_base_sr = 0x2;
+    reg_base_sr = 0x3;
     reg_mprj_datal = 0x00000002;
 }
